@@ -1,0 +1,85 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family: "pf_din_text_cond_promedium", Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    width: 940px;
+    margin:0 auto;
+}
+.row{
+    width: 100%;
+    margin:20px 10px;
+}
+.row>div{
+    width: 31%;
+    margin:0 5px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #aaa;
+}
+.row>div img{
+    width: 100%;
+    height: 225px;
+}
+.row>div h1{
+    padding:30px 50px;
+    color: #13317F;
+    line-height: 1.25;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #aaa;
+}
+.dateTime{
+    position: absolute;
+    top:0px;
+    left: 0;
+}
+.dateTime span:first-child{
+    color: #fff;
+    text-align: center;
+    background-color: #1894A0;
+    padding: 6px 15px;
+    display: block;
+    opacity: .9;
+
+}
+.dateTime span:last-child{
+    padding: 5px 15px 3px;
+    display: block;
+    background-color: #334564;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    opacity: .9;
+}
+.socialButtons{
+    position: relative;
+    bottom:0;
+    line-height: 38px;
+    color: #aaaaaa;
+    font-weight: bold;
+    font-size: 16px;
+}
+.socialButtons span{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid #aaa;
+}
+.socialButtons span:last-child{
+    border:none;
+}
+
+
+
+
+
+
+
