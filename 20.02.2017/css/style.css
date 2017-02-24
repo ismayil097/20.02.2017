@@ -7,7 +7,6 @@ h1{
     margin:0;
     padding:0;
 }
-
 .wrapper{
     width: 940px;
     margin:0 auto;
@@ -75,6 +74,47 @@ h1{
 }
 .socialButtons span:last-child{
     border:none;
+}
+@media (min-width:480px) and (max-width:970px) {
+    .wrapper{
+        width: 100%;
+     
+    }
+    .row{
+        margin:0;
+    }
+    .row>div:nth-child(1){
+        width: calc(50% - 10px);
+        margin-left: 0;
+        margin-right: 0;
+}
+    .row>div:nth-child(2){
+        width: calc(50% - 10px);
+        margin-right: 0;
+        margin-left: 0;
+}
+    .row>div:nth-child(3){
+        margin:10px 0;
+        width: 98%;
+}
+    .socialButtons span{
+    width: 31%;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid #aaa;
+}
+}
+@media (max-width:480px){
+    .row{
+        margin:0;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .row>div{
+        width: 99%;
+        margin: 10px 0;
+    }
 }
 
 
